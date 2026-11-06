@@ -12,13 +12,13 @@ https://hidystudio.github.io/HidyGames/
 
 ### 📱 Android (APP)
 
-- **GRAVTILE** — 색과 모양을 연결하고 파편을 활용하는 캐주얼 블록 퍼즐 게임 (개발 중)
+- **GRAVTILE** — 색과 모양을 연결하고 파편을 활용하는 캐주얼 블록 퍼즐 게임 (출시 준비 중)
 
-### 💻 PC (Steam)
+### 💻 PC (Steam 출시 준비)
 
 - **Gacha Capsule Smasher** — 캡슐을 부수고, 코인을 모으고, 가게를 운영하는 캐주얼 게임
 
-  [itch.io에서 플레이 및 구매하기](https://hidystudio.itch.io/gacha-capsule-smasher)
+  [itch.io에서 무료 데모 플레이 및 유료 버전 구매하기](https://hidystudio.itch.io/gacha-capsule-smasher)
 
 ## 🔗 Official Channels
 

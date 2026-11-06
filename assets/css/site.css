@@ -38,3 +38,39 @@
 .gravtile-modes{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:920px){.gravtile-features{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:650px){.gravtile-gallery .gallery-item img{aspect-ratio:9/16}.gravtile-features{grid-template-columns:1fr}}
+
+
+/* v5: landscape GRAVTILE imagery / simpler hero / 11x11 information */
+/* The Android banner is complete and contained; the PC screenshot continues to fill its panel. */
+.platform-art.art-gravtile{background:#1a3038;padding:0;min-height:0;}
+.platform-art.art-gravtile img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;transform:none;}
+.platform-art.art-gravtile:hover img{transform:none;}
+/* Both catalogue card image columns take the same visual height, independent of source image dimensions. */
+.platform-card{min-height:370px;}
+.platform-art{position:relative;min-height:0;}
+.platform-art > img{position:absolute;inset:0;width:100%;height:100%;}
+/* Full-width key visual replaces the redundant two-column feature copy and metrics row. */
+.gravtile-banner{width:100%;overflow:hidden;border-radius:24px;background:#172c34;}
+.gravtile-banner img{display:block;width:100%;height:auto;aspect-ratio:1024/500;object-fit:contain;}
+/* Portrait shots are intentionally smaller, with no cropping. */
+.gravtile-gallery{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+.gravtile-gallery .gallery-item{min-width:0;}
+.gravtile-gallery .gallery-item img{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:contain;}
+@media(max-width:920px){
+  .gravtile-gallery{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .platform-card{min-height:350px;}
+}
+@media(max-width:650px){
+  .platform-card{min-height:unset;}
+  .platform-art{width:100%;height:225px;flex:none;}
+  .platform-art > img{position:relative;inset:auto;width:100%;height:100%;}
+  .gravtile-banner{border-radius:16px;}
+  .gravtile-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+}
+
+/* v5 polish: match the two card heights without enlarging either artwork. */
+@media(min-width:921px){
+  .platform-info{padding:27px 35px;}
+  .platform-info h4{margin:14px 0 10px;}
+  .platform-summary{margin-bottom:15px;}
+}
